@@ -1,0 +1,53 @@
+baseURL = "http://example.org/"
+theme = "mainroad"
+paginate = "10" # Number of posts per page
+defaultContentLanguage = "de"
+
+[Author] # Used in authorbox
+  name = "Steven Weber"
+  bio = ""
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Steven Weber"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -110
+
+[Params]  
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+  copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  schema = true  # Enable Schema
+  readmore = true # Show "Read more" button in list if true
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+
+[Params.style.vars]
+  highlightColor = "#ff9300" # Override highlight color
+  fontFamilyPrimary = "'Palatino Linotype','Book Antiqua',Palatino,serif, 'Times New Roman', 'Open Sans', Helvetica, Arial, sans-serif"
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+#  image = "img/placeholder.png" # Logo image. Path relative to "static"
+#  title = "Steven Weber" # Logo title, otherwise will use site title
+#  subtitle = "Just another site" # Logo subtitle
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = true # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
