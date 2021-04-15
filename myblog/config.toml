@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 theme = "mainroad"
 paginate = "10" # Number of posts per page
 defaultContentLanguage = "de"
@@ -20,8 +20,8 @@ defaultContentLanguage = "de"
   authorbox = false # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
-  copyright = "John Doe" # Footer copyright holder, otherwise will use site title
+  description = "Steven Webers blog" # Site description. Used in meta description
+  copyright = "Steven Weber" # Footer copyright holder, otherwise will use site title
   schema = true  # Enable Schema
   readmore = true # Show "Read more" button in list if true
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
@@ -29,7 +29,7 @@ defaultContentLanguage = "de"
   mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
 
 [Params.style.vars]
-  highlightColor = "#ff9300" # Override highlight color
+  highlightColor = "#c22e2e" # Override highlight color
   fontFamilyPrimary = "'Palatino Linotype','Book Antiqua',Palatino,serif, 'Times New Roman', 'Open Sans', Helvetica, Arial, sans-serif"
   fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 
@@ -40,10 +40,11 @@ defaultContentLanguage = "de"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
+  list = "right"  # Configure layout for list pages
+  single = true # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["recent", "categories", "taglist", "social", "languages"]
   # alternatively "ddg-search" can be used, to search via DuckDuckGo
   # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
 

@@ -3,7 +3,7 @@ title: ""
 date: 2021-04-14T19:37:09+02:00
 draft: true
 ---
-
+<!--- https://www.likevillepodcast.com/who -->
 # Linksammlung
 ### Technik und Co.
 - [Lowtechmagazin](https://www.lowtechmagazine.com/) - Eine interessante Seite für alle Technikinteressierten, die bereit sind etwas über Hightech-Probleme und Lowtech-Lösungen zu erfahren.
