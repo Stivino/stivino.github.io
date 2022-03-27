@@ -5,4 +5,3 @@ draft: true
 thumbnail: /images/19-11-shanghai/1.jpg
 lightgallery: true
 ---
-hello
