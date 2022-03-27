@@ -16,6 +16,8 @@ subtitle: Saarbrücken, Germany 2022
 - [Jo Winter (de): Drechseln](http://www.jowinter.de/)
 - [Armin Kolb (de): Drechseln](http://www.spinningtop.de/)
 - [K-INO (jp): Vor allem Kumiko)](https://k-ino.jp/en/)
+- [Ishitani Furniture (jp): Möbel)](https://tecori.com/)
+
  
 ## Spaß 
 - [Trauriger Humor (sadanduseless.com)](https://www.sadanduseless.com/)
