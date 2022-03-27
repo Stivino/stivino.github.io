@@ -1,7 +1,3 @@
----
-title: Home
-subtitle: Saarbrücken, Germany 2022
----
 # Linksammlung
 ## Arbeit (Industrie 4.0, IIOT)
 - [Fraunhofer Industrie 4.0-blog](https://blog.iao.fraunhofer.de/tag/industrie-4-0/)

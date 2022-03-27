@@ -18,7 +18,6 @@
     {{- $pages = .Paginate $pages -}}
     {{- end -}}
     {{- range $pages.PageGroups -}}
-    <h3 class="group-title">{{ .Key }}</h3>
     <section class="recent-posts">
         <div class="section-title">
             <div class="row listrecent">
@@ -37,13 +36,13 @@
                         <div class="card-body">
                             <h2 class="card-title">
                                 <a href="{{ .RelPermalink }}" class="archive-item-link">
-                                    {{- .Title -}}
+                                    {{- .Title -}},  '{{- $.Site.Params.section.dateFormat | default "2006" | .Date.Format -}}
                                 </a>
                             </h2>
 
-                            <span class="archive-item-date">
-                                {{- $.Site.Params.section.dateFormat | default "01-02" | .Date.Format -}}
-                            </span>
+                            <!-- <span class="archive-item-date">
+                                {{- $.Site.Params.section.dateFormat | default "2006" | .Date.Format -}}
+                            </span> -->
                         </div>
 
                     </div>

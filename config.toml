@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "Steven Weber"
 enableEmoji = true
+typeit = true
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -18,14 +19,11 @@ theme = "LoveIt"
 [menu]
   [[menu.main]]
     identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Posts"
     url = "/post/"
-    # title will be shown when you hover on this menu link
-    title = ""
+    title = "Posts"
     weight = 1
 [[menu.main]]
     identifier = "gallery"
@@ -33,3 +31,30 @@ theme = "LoveIt"
     name = "Photos"
     url = "/gallery/"
     weight = 1
+
+
+[params.home]
+    # LoveIt NEW | 0.2.0 amount of RSS pages
+    rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/meinAvatar.png"
+      title = ""
+      subtitle = "Hi! I'm Steven Weber from Saarbrücken, Saarland, Germany."
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  # Social config about the author
+  [params.social]
+    GitHub = "xxxx"
+    Linkedin = "ddd"
+
+
+
+
