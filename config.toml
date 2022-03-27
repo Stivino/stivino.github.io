@@ -18,20 +18,29 @@ theme = "LoveIt"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
+    identifier = "gallery"
     pre = ""
     post = ""
-    name = "Posts"
-    url = "/post/"
-    title = "Posts"
-    weight = 1
-[[menu.main]]
-    identifier = "gallery"
-    post = ""
-    name = "Photos"
+    name = "Gallery"
     url = "/gallery/"
+    title = ""
     weight = 1
-
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
 
 [params.home]
     # LoveIt NEW | 0.2.0 amount of RSS pages
@@ -40,14 +49,14 @@ theme = "LoveIt"
     [params.home.profile]
       enable = true
       gravatarEmail = ""
-      avatarURL = "/images/meinAvatar.png"
+      avatarURL = "/images/logo.PNG"
       title = ""
-      subtitle = "Hi! I'm Steven Weber from Saarbrücken, Saarland, Germany."
+      subtitle = "Hi! I'm Steven. I had some boring moments during my Covid-19 quarantine, so this site was born. Nice to meet you here."
       typeit = true
       social = true
-      disclaimer = ""
+      disclaimer = "2022, Saarbrücken, Germany"
     [params.home.posts]
-      enable = true
+      enable = false
       paginate = 6
 
   # Social config about the author

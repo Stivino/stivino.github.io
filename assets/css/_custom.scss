@@ -2,12 +2,13 @@
   font-weight: 700;
   font-size: smaller;
   text-align: center;
-  width: 300px;
+  width: 350px;
 }
 
 .card {
-  padding: 20px;
-  width: 300px;
+  padding: 10px;
+  padding-bottom: 20px;
+  width: 350px;
   height: auto;
   text-align: center;
 }
@@ -30,3 +31,33 @@
 .content {
   margin-bottom: 100px;
 }
+
+.page {
+  max-width: 950px;
+}
+
+
+.home {
+  .home-profile {
+    @include transform(translateY( 16vh));
+    padding: 0 0 .5rem;
+    text-align: center;
+
+    .home-avatar {
+      padding: .5rem;
+
+      img {
+        display: inline-block;
+        width: 8rem;
+        height: auto;
+        margin: 0 auto;
+        @include border-radius(0%);
+        @include box-shadow(0 0 0 0em rgba(0, 0, 0, .05));
+        @include transition(all 0.4s ease);
+
+        &:hover {
+          position: relative;
+          @include transform(translateY(-.75rem));
+        }
+      }
+    }}}
