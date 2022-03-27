@@ -1,0 +1,23 @@
+.listrecent h2.card-title {
+  font-weight: 700;
+  font-size: smaller;
+  text-align: center;
+  width: 300px;
+}
+
+.card {
+  padding: 20px;
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+
+
+.card .img-fluid {
+  width: 100%;
+  max-width: 400px;
+}
+
+.listrecent {
+  display: flex;
+}
